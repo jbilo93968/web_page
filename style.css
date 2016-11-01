@@ -1,0 +1,133 @@
+body {
+  color: #F4F4F4;
+  margin: none;
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100%;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #614385; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #614385 , #516395); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container-general {
+  width: 90%;
+}
+
+.container-top {
+  height: 400px;
+  background: #221133;
+  opacity: 0.8;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+
+.container-bottom {
+  height: 300px;
+  background: #221144;
+  opacity: 0.8;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+
+.container-top .card {
+  height: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+
+.container-bottom .card {
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+
+.card .title {
+  font-family: Helvetica;
+}
+
+.card .head {
+  color: orange;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card .avatar {
+  height: 250px;
+  width: auto;
+  opacity: 0.9;
+  display: flex;
+}
+
+.card .avatar:hover {
+  height: 250px;
+  width: auto;
+  opacity: 1;
+}
+
+.twitter {
+  color: #2575A5;
+  opacity: 0.8;
+}
+
+.twitter:hover {
+  color: #2575A5;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.linkedin {
+  color: #A00043;
+  opacity: 0.8;
+}
+
+.linkedin:hover {
+  color: #A00043;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.instagram {
+  color: #CBB227;
+  opacity: 0.8;
+}
+
+.instagram:hover {
+  color: #CBB227;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.github {
+  color: #F5F8FA;
+  opacity: 0.8;
+}
+
+.github:hover {
+  color: #F5F8FA;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.card .location {
+  font-size: 12px;
+}
+
+.update {
+  align-items: bottom;
+}
+
+
+
+
