@@ -66,6 +66,7 @@ body {
 .card .avatar {
   height: 250px;
   width: auto;
+  margin: 0 auto;
   opacity: 0.9;
   display: flex;
 }
@@ -79,6 +80,7 @@ body {
 .twitter {
   color: #2575A5;
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .twitter:hover {
